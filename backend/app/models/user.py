@@ -11,5 +11,6 @@ class User(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     email: Mapped[str] = mapped_column(String(255), unique=True, index=True)
     created_at: Mapped[datetime] = mapped_column(
-        DateTime(timezone=True), server_default=func.now()
-    )
+        DateTime(timezone=True), server_default=func.now())
+    bodyweight_kg: Mapped[float] = mapped_column(nullable=True)
+    
