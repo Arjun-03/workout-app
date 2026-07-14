@@ -67,7 +67,7 @@ the features that need them exist.
 ### 1. Clone and enter the project
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/workout-app.git
+git clone https://github.com/Arjun-03/workout-app.git
 cd workout-app
 ```
 
